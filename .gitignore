@@ -1,0 +1,54 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+.expo/
+web-build/
+
+# 本地环境文件
+.env
+.env.local
+.env.*.local
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# 测试覆盖率
+coverage/
+
+# Expo
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro
+.metro-health-check*
+
+# 临时文件
+tmp/
+temp/

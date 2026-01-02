@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# 构建输出
+dist/
+
+# 本地环境
+.env
+.env.local
+
+# 日志
+*.log
+
+# 编辑器
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# 敏感配置（使用 wrangler.toml.example 作为模板）
+# wrangler.toml  # 如果包含敏感信息可取消注释

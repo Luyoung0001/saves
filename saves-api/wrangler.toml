@@ -1,0 +1,8 @@
+name = "saves-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "saves-db"
+database_id = "7d5fade3-1f08-4afa-a761-9cbfb9577b45"
