@@ -2,6 +2,8 @@
 
 一个简洁的个人记账应用，支持 Web、Android 和 iOS 平台。
 
+## 正式上线版网站：**[saves](https://saves.website/)**
+
 ## 功能特性
 
 - 📝 记录收入和支出
