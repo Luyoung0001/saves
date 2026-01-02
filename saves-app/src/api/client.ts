@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Category, Transaction, Stats, MonthlyStats, User, AuthResponse } from '../types';
 
-const API_BASE = 'https://saves-api.luyoung0001.workers.dev';
+const API_BASE = 'https://savesapi.saves.website';
 const TOKEN_KEY = 'saves_auth_token';
 const USER_KEY = 'saves_user';
 

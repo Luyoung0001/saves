@@ -14,9 +14,11 @@
       "backgroundColor": "#4F46E5"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saves.app"
     },
     "android": {
+      "package": "com.saves.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#4F46E5"
@@ -30,6 +32,12 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9fbd0874-6eb5-4fae-9ff7-f9ff8e38869b"
+      }
+    }
   }
 }
